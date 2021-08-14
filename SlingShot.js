@@ -27,8 +27,8 @@ class SlingShot{
         push();
         strokeWeight(10);
         stroke(48,22,8);
-        line();
-        line();
+        line(pointA.x-20,pointA.y,pointB.x-10,pointB.y);
+        line(pointA.x-20,pointA.y,pointB.x+30,pointB.y);
         pop();
      }
     }
